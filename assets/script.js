@@ -80,6 +80,6 @@ function changebullet(){
 //affichage de l'image et de la tagline
 
 function imageTagline(){
-	document.querySelector('.banner-img').src = "./ASSETS/images/slideshow/" + slides[position].image;
+	document.querySelector('.banner-img').src = `/ASSETS/images/slideshow/${slides[position].image}`;
 	document.querySelector("#banner p").innerHTML = slides[position].tagLine;
 }
